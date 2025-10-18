@@ -2,6 +2,8 @@
 
 A complete assembler for the Hack computer platform from the [Nand2Tetris](https://www.nand2tetris.org/) course (Project 6). This implementation translates Hack assembly language (.asm) into binary machine code (.hack).
 
+This code repository has been verified that it works correctly with the assignment of project 6
+
 ## Overview
 
 The Hack Assembler is a two-pass assembler that converts symbolic Hack assembly code into 16-bit binary instructions. It handles three types of instructions:
@@ -231,25 +233,3 @@ This is a known quirk of the Hack specification and is handled correctly by the 
   - 16384-24575: Screen memory map
   - 24576: Keyboard register
 
-## Testing
-
-The assembler has been tested with the Nand2Tetris provided test programs including:
-- Add.asm (simple arithmetic)
-- Max.asm (branching with labels)
-- Programs with variables and symbols
-
-All outputs match the reference assembler exactly.
-
-## Resources
-
-- [Nand2Tetris Website](https://www.nand2tetris.org/)
-- [Hack Assembly Language Specification](https://www.nand2tetris.org/_files/ugd/44046b_89a8e226476741a3b7c5204575b8a0b2.pdf)
-- [Course Book](https://www.nand2tetris.org/book): "The Elements of Computing Systems" by Nisan and Schocken
-
-## License
-
-This is an educational project for the Nand2Tetris course.
-
-## Author
-
-Implementation in Rust as part of the Nand2Tetris course learning journey.
